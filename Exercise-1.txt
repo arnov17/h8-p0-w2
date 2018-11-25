@@ -1,0 +1,83 @@
+Soal No. 1
+
+Algoritma :
+1. terima input 'masa benda' dengan nilai 600
+2. terima input 'percepatan benda' dengan nilai 2
+3. terima input 'resultan gaya 
+4. hitung jumlah perkalian pada 'masa benda' dengan 'percepatan benda
+5. lakukan pengaturan pada 'resultan gaya' dengan nilai hasil jumlah perkalian
+6. tampilkan hasil resultan gaya jumlah perkalian  
+
+
+pseudocode :
+STORE 'massa benda' with 600
+STORE 'percepatan benda' with 2
+STORE 'resultan gaya' with " "
+
+CALCULATE 'Masa benda' times 'percepatan benda'
+SET 'resultan gaya' with calculation result 
+
+DISPLAY 'resultan gaya'
+
+
+
+Soal Nomer 2.
+
+algoritma :
+1. terima input 'tahun' dengan nilai berapapun
+2. hitung nilai pada tahun di bagi 4,  jika hasilnya 0 maka benar
+3. hitung nilai pada tahun di bagi 100, jika hasilnya tidak 0 maka benar
+4. hitung nilai pada tahun di bagi 4, jika hasilnya 0 maka benar
+5. hitung nilai pada tahun di bagi 100, jika hasilnya 0 maka benar
+6. hitung nilai pada tahun di bagi 400, jika hasilnya 0 maka benar
+7. jika point 2 dan 3 hasilnya benar, maka hasilnya benar
+8. jika point 4,5, dan 6 hasilnya benar, maka hasilnya benar
+9. jika point 7 dan 8 hasilnya benar, maka tampilkan benar
+10. selainya jika terdapat nilai salah, maka tampilkan salah
+
+
+pseudocode :
+
+Store 'tahun' with anyl value
+
+IF ( calculate 'tahun' modulus 4 result equal 0 and calculate 'tahun' modulus 100 result > 0 )
+and IF ( calculate 'tahun' modulus 4 result equal 0 and calculate 'tahun' modulus 100 result equal 0 and calculate 'tahun' modulus 400 result equal 0 )
+  display True
+else display False
+
+
+Soal nomer 3
+
+algoritma :
+1. terima input total jumlah 'pakaian' yang akan dimasukan ke dalam mesin cuci. 
+2. Ulangi step 3 selama 'pakaian' masih dibawah 20. Jika 'pakaian' sudah 20, lanjut ke step 4.
+3. Tambah 'pakaian' dengan 1, agar semakin mendekati batas perulangan. Kembali ke step 2.
+4. Tampilkan "turn on the washing machine", yang berarti nyalahkan mesin cuci
+
+pseudcode :
+Store  nilai 'pakaian' with " "
+while 'pakaian' <20
+  add 'pakaian' by 1
+  display 'turn on the washing machine'
+  set 'pakaian' with 'jumlah' + 1
+
+
+Soal nomer 4
+
+algoritma :
+1. simpan 'number' bernilai 0
+2. Ulangi step 3 selama 'number' masih dibawah 40.
+3. tambah 'number' dengan 1, agar mendekati batas perulangan. kembali ke step 2
+4. jika 'siswa' memiliki 'kuku panjang' maka 'menghukum siswa'
+5. jika 'siswa' tidak memiliki 'kuku panjang' maka 'memuji siswa'
+
+
+pseudcode :
+STORE 'siswa' to 0
+
+WHILE 'siswa' less than 40
+  ADD 'siswa' by 1
+IF 'siswa' equal to 'kuku panjang
+  Dispay 'menghukum siswa'
+else Display 'memuji siswa'
+
